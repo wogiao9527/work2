@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.main1);
         fragment1 = new Fragment1();
         fragment2 = new Wechat2Fragment();
         fragment3 = new Wechat3Fragment();
